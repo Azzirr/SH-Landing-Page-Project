@@ -1,0 +1,111 @@
+@import '_variables';
+body{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 768px){
+    .download-section{
+        display: flex;
+        align-items: start;
+        scale: 0.5;
+    }
+
+}
+@media screen and (min-width: 769px){
+    .main-header-container-mobile{
+        display: none;
+    }
+    .main-header-container-desktop{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        position: relative;
+        background-color: $background-color;
+        padding-top: 5%;
+        width: 100%;
+        .margin{
+            margin-left: 30%;
+        }
+        .download-section{
+            display: flex;
+            align-items: center;
+            scale: 0.5;
+        }
+        h1{
+            color: $product-color;
+            font-size: 60px;
+            font-family: $second-font;
+            font-weight: 700;
+        }
+        span{
+            color: $text-color;
+            font-family: $second-font;
+            font-size: 28px;
+        }
+        #img1{
+            position: absolute;
+        }
+        #img2 {
+            position: absolute;
+            right: 280px;
+            top: 30px;
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .main-header-container-desktop{
+        display: none;
+    }
+    .main-header-container-mobile{
+        display: flex;
+        align-items: center;
+        background-color: $background-color;
+        padding-top: 5%;
+        .download-section{
+            display: flex;
+            align-items: center;
+            scale: 0.2;
+        }
+        .photo-content{
+            img{
+                width: 100%;
+            }
+            #img2 {
+                position: absolute;
+                right: -20px;
+                top: 180px;
+                scale: 0.8;
+            }
+        }
+        .photo-content-2{
+            display: flex;
+            align-items: center;
+            img{
+                width: 100%;
+                scale: 0.5;
+            }
+        }
+        .text-content{
+            padding: 20px;
+            margin-top: 50%;
+            span{
+                color: $text-color;
+                font-family: $second-font;
+                font-size: 18px;
+                line-height: 25px;
+            }
+            
+        }
+        .h1-style{
+            padding: 20px;
+            h1{
+                color: $product-color;
+                font-size: 38px;
+                font-family: $second-font;
+                font-weight: 700;
+            }
+        }
+    }
+}
