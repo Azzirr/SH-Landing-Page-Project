@@ -1,0 +1,170 @@
+@import '_variables';
+
+
+.content-section, .content-2-section{
+    padding: 40px $p-20 0px $p-20;
+    h2{
+        font-family: $main-font;
+        font-weight: 800;
+    }
+    .content-text{
+        span{
+            font-size: 16px;
+            font-family: $second-font;
+            color: $text-color;
+            line-height: 20px;
+        }
+    }
+    .content-text-with-photo{
+        height: 291px;
+        background-image: url('../assets/mob_room_booking.png');
+        background-repeat: no-repeat;
+        .list{
+            padding-top: 5%;
+        }
+        p{
+            margin-left: 50%;
+            font-family: $second-font;
+        }
+    }
+    .add-padding{
+        padding-bottom: 40px;
+    }
+}
+
+.content-3-section{
+    background-color: $background-color;
+    text-align: center;
+    padding-bottom: 20px;
+    .pdf-info {
+        display: flex; /* Ustawiamy flex container */
+        align-items: center; /* Wyrównujemy elementy pionowo do środka */
+        justify-content: center;
+        p {
+            font-family: $second-font;
+            padding-right: 10px;
+            font-size: 16px;
+        }
+        #PDF-border{
+            border-right: 1px solid #D6D6D6;
+            margin-right: 10px;
+        }
+    }
+
+    h3{
+        font-family: $main-font;
+        padding-top: $p-20;
+    }
+    span{
+        font-family: $second-font;
+    }
+
+    .square-button {
+        display: inline-block;
+        padding: 20px 60px;
+        background-color: $product-color;
+        color: $white-color;
+        font-size: 18px;
+        border: none;
+        text-align: center;
+        cursor: pointer;
+    }
+}
+
+.content-4-section, .content-6-section{
+    .c-4-text, .c-6-text{
+        padding: 0px $p-20 40px $p-20;
+    }
+    .c-4-img, .c-6-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .c-6-header-no-padding{
+        h2{
+            padding: 0px 0px 0px $p-20;
+        }
+    }
+    img{
+        max-width: 100%;
+        padding-left: 10px;
+        box-sizing: border-box;
+    }
+    h2{
+        font-family: $main-font;
+        font-size: 36px;
+        padding: 60px $p-20 40px $p-20;
+    }
+    h3{
+        font-family: $main-font;
+        font-size: 18px;
+    }
+    span{
+        font-family: $second-font;
+        font-size: 20px;
+    }
+    p{
+        font-family: $second-font;
+        font-size: 16px; 
+    }
+}
+
+.content-5-section{
+    .c-5-text{
+        padding: 0px $p-20 40px $p-20;
+    }
+    .black-box-text{
+        background-color: #333333;
+        width: 55%;
+        padding: 5px $p-20 5px $p-20;
+        color: white;
+        margin-left: $ml-20;
+        span {
+            margin: 0;
+            font-family: $main-font;
+            font-size: 20px;
+            font-weight: 700;
+        }
+    }
+    h2{
+        font-family: $main-font;
+        font-size: 36px;
+        padding: 60px $p-20 $p-20 $p-20;
+    }
+    p{
+        font-family: $second-font;
+        font-size: 16px; 
+        padding-top: $p-20;
+    }
+}
+
+.content-7-section{
+    background-color: $background-color;
+    .c-7-text{
+        padding: 0px $p-20 40px $p-20;
+    }
+    .black-box-text{
+        background-color: #333333;
+        width: 55%;
+        padding: 5px $p-20 5px $p-20;
+        color: white;
+        margin-left: $ml-20;
+        span {
+            margin: 0;
+            font-family: $main-font;
+            font-size: 20px;
+            font-weight: 700;
+        }
+    }
+    h2{
+        font-family: $main-font;
+        font-size: 36px;
+        padding: 60px $p-20 $p-20 $p-20;
+    }
+    p{
+        font-family: $second-font;
+        font-size: 16px; 
+        padding-top: $p-20;
+    }
+}
+

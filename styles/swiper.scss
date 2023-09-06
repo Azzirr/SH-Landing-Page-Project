@@ -1,29 +1,124 @@
 @import 'variables';
 
+// Dotted mobile slider
 .management{
-    font-family: $second-font;
+    font-family: $main-font;
     background-color: $background-color;
     padding-top: 80px;
     h2{
         font-size: 20px;
-        margin-left: 20px;
+        margin-left: $ml-20;
     }
 
     .p-bottom{
         h4{
-            padding: 20px;
-
+            padding: 40px 20px 20px 20px;
+            font-family: $main-font;
+            font-weight: 400;
         }
     }
+
+    .swiper-container{
+        background-color: $background-color;
+        padding: $p-20;
+    }
+    .swiper-slide{
+        max-width: 100%;
+        padding-bottom: 10%;
+    }
+    .slide-text{
+        font-size: 18px;
+    }
+    
+    img{
+        margin-left: 25%;
+        margin-bottom: 10%;
+    }
 }
-.swiper-container{
-    background-color: $background-color;
-    padding: 20px;
+
+.management-white{
+    background-color: $white-color;
+    .swiper-container{
+        background-color: $white-color;
+    }
 }
-.swiper-slide{
-    max-width: 100%;
-    padding-bottom: 10%;
-}
-.slide-text{
+
+// Navigation slider
+.navigation-slider{
+    position: relative;
+    .header-text{
+        background-color: $background-color;
+        h4{
+            padding: 40px 20px 20px 20px;
+            font-family: $main-font;
+            font-weight: 400;
+            margin: 0
+        }
+    }
+    .navigation-image{
+        width: auto;
+        padding-bottom: 25%;
+        background-color: $product-color;
+        img{
+            width: 100%;
+            position: relative;
+        }
+        #phone-image{
+            position: absolute;
+            left: -5%;
+            scale: 0.8;
+        }
+    }
+    .swiper{
+        width: 100%;
+        height: 100%;
+    }
+  
+    .swiper-slide {
+    text-align: center;
     font-size: 18px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    background-color: $product-color;
+    height: 300px;
+        h2{
+            font-family: $second-font;
+            font-weight: 800;
+            color: $white-color;
+            margin-left: $ml-20;
+        }
+        span{
+            display: block;
+            padding: $p-20;
+            font-family: $second-font;
+            font-size: 16px;
+            color: $white-color;
+            line-height: 25px;
+        }
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .swiper-button-next, .swiper-button-prev{
+        padding: 0px 10px 0px 10px;
+        background-color: $background-color;
+        position: absolute;
+        top: 48%;
+    }
+}
+
+.separator-section{
+    background-color: $product-color;
+    padding: $p-20;
+    border-top: 1px dotted $background-color;
+    text-align: center;
+    color: $white-color;
+    font-family: $main-font;
 }

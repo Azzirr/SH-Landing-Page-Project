@@ -1,0 +1,157 @@
+@charset "UTF-8";
+.content-section, .content-2-section {
+  padding: 40px 20px 0px 20px;
+}
+.content-section h2, .content-2-section h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+.content-section .content-text span, .content-2-section .content-text span {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+  line-height: 20px;
+}
+.content-section .content-text-with-photo, .content-2-section .content-text-with-photo {
+  height: 291px;
+  background-image: url("../assets/mob_room_booking.png");
+  background-repeat: no-repeat;
+}
+.content-section .content-text-with-photo .list, .content-2-section .content-text-with-photo .list {
+  padding-top: 5%;
+}
+.content-section .content-text-with-photo p, .content-2-section .content-text-with-photo p {
+  margin-left: 50%;
+  font-family: "Roboto", sans-serif;
+}
+.content-section .add-padding, .content-2-section .add-padding {
+  padding-bottom: 40px;
+}
+
+.content-3-section {
+  background-color: #F7F7F7;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.content-3-section .pdf-info {
+  display: flex; /* Ustawiamy flex container */
+  align-items: center; /* Wyrównujemy elementy pionowo do środka */
+  justify-content: center;
+}
+.content-3-section .pdf-info p {
+  font-family: "Roboto", sans-serif;
+  padding-right: 10px;
+  font-size: 16px;
+}
+.content-3-section .pdf-info #PDF-border {
+  border-right: 1px solid #D6D6D6;
+  margin-right: 10px;
+}
+.content-3-section h3 {
+  font-family: "Poppins", sans-serif;
+  padding-top: 20px;
+}
+.content-3-section span {
+  font-family: "Roboto", sans-serif;
+}
+.content-3-section .square-button {
+  display: inline-block;
+  padding: 20px 60px;
+  background-color: #3146FF;
+  color: #FFFFFF;
+  font-size: 18px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.content-4-section .c-4-text, .content-4-section .c-6-text, .content-6-section .c-4-text, .content-6-section .c-6-text {
+  padding: 0px 20px 40px 20px;
+}
+.content-4-section .c-4-img, .content-4-section .c-6-img, .content-6-section .c-4-img, .content-6-section .c-6-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-4-section .c-6-header-no-padding h2, .content-6-section .c-6-header-no-padding h2 {
+  padding: 0px 0px 0px 20px;
+}
+.content-4-section img, .content-6-section img {
+  max-width: 100%;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.content-4-section h2, .content-6-section h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  padding: 60px 20px 40px 20px;
+}
+.content-4-section h3, .content-6-section h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+.content-4-section span, .content-6-section span {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+.content-4-section p, .content-6-section p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.content-5-section .c-5-text {
+  padding: 0px 20px 40px 20px;
+}
+.content-5-section .black-box-text {
+  background-color: #333333;
+  width: 55%;
+  padding: 5px 20px 5px 20px;
+  color: white;
+  margin-left: 20px;
+}
+.content-5-section .black-box-text span {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+.content-5-section h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  padding: 60px 20px 20px 20px;
+}
+.content-5-section p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  padding-top: 20px;
+}
+
+.content-7-section {
+  background-color: #F7F7F7;
+}
+.content-7-section .c-7-text {
+  padding: 0px 20px 40px 20px;
+}
+.content-7-section .black-box-text {
+  background-color: #333333;
+  width: 55%;
+  padding: 5px 20px 5px 20px;
+  color: white;
+  margin-left: 20px;
+}
+.content-7-section .black-box-text span {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+.content-7-section h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  padding: 60px 20px 20px 20px;
+}
+.content-7-section p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  padding-top: 20px;
+}/*# sourceMappingURL=content-styles.css.map */
