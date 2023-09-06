@@ -1,0 +1,29 @@
+@import 'variables';
+
+.management{
+    font-family: $second-font;
+    background-color: $background-color;
+    padding-top: 80px;
+    h2{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .p-bottom{
+        h4{
+            padding: 20px;
+
+        }
+    }
+}
+.swiper-container{
+    background-color: $background-color;
+    padding: 20px;
+}
+.swiper-slide{
+    max-width: 100%;
+    padding-bottom: 10%;
+}
+.slide-text{
+    font-size: 18px;
+}
