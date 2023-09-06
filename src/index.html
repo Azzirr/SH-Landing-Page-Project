@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="../dist/nav-styles.css">
     <link rel="stylesheet" href="../dist/main-header-styles.css">
     <link rel="stylesheet" href="../dist//swiper.css">
-
+    <link rel="stylesheet" href="../dist/content-styles.css">
+    <link rel="stylesheet" href="../dist/accordion.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
 </head>
@@ -141,7 +142,7 @@
         <div>
             <h2>Management</h2>
         </div>
-        <div class="swiper mySwiper">
+        <div class="swiper dottedSwiper">
             <div class="swiper-wrapper swiper-container">
               <div class="swiper-slide slide-text">Tools for real-time management of all your facilities and people across multiple sites. Ease, speed and effectiveness of facialities communictaions.</div>
               <div class="swiper-slide slide-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at nibh vel velit tempor ultricies. Donec ut elit non elit dignissim lacinia. Maecenas faucibus ligula nec tellus pellentesque porta id a nulla.</div>
@@ -155,26 +156,252 @@
         </div>
     </section>
     <!-- Second Mobile slider section -->
-    <section class="management">
+    <section class="management management-white">
         <div>
-            <h2>Management</h2>
+            <img src="../assets/desk_icon.png" alt="Two desks" />
         </div>
-        <div class="swiper mySwiper">
-            <div class="swiper-wrapper swiper-container">
-              <div class="swiper-slide slide-text">Tools for real-time management of all your facilities and people across multiple sites. Ease, speed and effectiveness of facialities communictaions.</div>
+        <div>
+            <h2>Use your time and space smarter</h2>
+        </div>
+        <div class="swiper dottedSwiper management-white">
+            <div class="swiper-wrapper swiper-container management-white">
+              <div class="swiper-slide slide-text">Never again run out of coffee or other supplies. Create and efficitent hive for your busy bees.</div>
               <div class="swiper-slide slide-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at nibh vel velit tempor ultricies. Donec ut elit non elit dignissim lacinia. Maecenas faucibus ligula nec tellus pellentesque porta id a nulla.</div>
               <div class="swiper-slide slide-text">Suspendisse lacinia lacus eget sodales rhoncus. Phasellus feugiat lobortis felis, sit amet venenatis odio faucibus in.</div>
               <div class="swiper-slide slide-text">Nam vulputate, enim molestie facilisis mollis, tellus neque fermentum massa, at consectetur mi nisl quis velit. Mauris fringilla pretium lectus, eu convallis sapien lacinia eget.</div>
             </div>
             <div class="swiper-pagination"></div>
         </div>
-        <div class="p-bottom">
-            <h4>Problem solving app</h4>
+    </section>
+    <!-- Third slider -->
+    <section class="navigation-slider">
+        <div class="header-text">
+            <h4>Features</h4>
+        </div>
+        <div class="swiper navigationSwiper">
+            <div class="navigation-image">
+                <img src="../assets/mob_features_bg.png" />
+                <img src="../assets/Silver.png"  id="phone-image" />
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <h2>Hot desk booking. </br>
+                    Like a pro.</h2>
+                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum leo in turpis malesuada, vel tincidunt libero pharetra. Nunc vitae dui eu tellus dapibus vestibulum.</span>
+              </div>
+              <div class="swiper-slide">
+                <h2>Hot desk booking. </br>
+                    Like a pro.</h2>
+                <span>Nulla facilisi. Fusce id justo vitae justo congue rhoncus nec non justo. Etiam id erat a purus tincidunt malesuada.</span>
+              </div>
+              <div class="swiper-slide">
+                <h2>Hot desk booking. </br>
+                    Like a pro.</h2>
+                <span>Maecenas eget semper elit. Sed sollicitudin arcu nec justo vehicula, eget bibendum libero malesuada. Vivamus viverra sapien non odio volutpat vehicula.</span>
+              </div>
+              <div class="swiper-slide">
+                <h2>Hot desk booking. </br>
+                    Like a pro.</h2>
+                <span>Cras fringilla neque vel ipsum bibendum, eget vulputate tortor tempor. Vestibulum non vehicula elit. Sed eget leo in justo facilisis viverra vel non est.</span>
+              </div>
+              <div class="swiper-slide">
+                <h2>Hot desk booking. </br>
+                    Like a pro.</h2>
+                <span>Praesent id massa nec purus feugiat cursus. Sed nec velit nec libero dictum consequat. Duis non urna vel tellus vulputate tristique.</span>
+              </div>
+            </div>
+
+          </div>
+    </section>
+
+    <section>
+        <div class="separator-section">
+            <span>
+                View and download full specs
+            </span>
         </div>
     </section>
 
+    <!-- Content section -->
+    <section class="content-section">
+        <div>
+            <h2>Room booking</h2>
+        </div>
+        <div class="content-text">
+            <span>
+                zonifero business supports meeting rooms booking. Reservations can be made from the smartphone, tablet in front of the room or directly from the calendar in Office365 or G suite. Room reservations can also be made in companies that are not familiar with Office 365 or G Suite services.
+            </span>
+        </div>
+        <div class="content-text-with-photo">
+            <div class="list">
+                <p><b>unlimited</b> rooms</p>
+                <p><b>unlimited</b> employees</p>
+                <p><b>10</b> flors</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accordion section -->
+    <section>
+        <button class="accordion">Hot-desk booking <p class="accordion-arrow"></p></button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor nisi sed erat bibendum, vel eleifend nulla volutpat.</p>
+        </div>
+
+        <button class="accordion">Status of employees <p class="accordion-arrow"></p></button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor nisi sed erat bibendum, vel eleifend nulla volutpat. Praesent consectetur libero at tellus bibendum, eu ultrices tellus convallis. Vestibulum ullamcorper velit vel odio varius, non malesuada justo efficitur.</p>
+        </div>
+
+        <button class="accordion">Request management <p class="accordion-arrow"></p></button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor nisi sed erat bibendum, vel eleifend nulla volutpat. Praesent consectetur libero at tellus bibendum, eu ultrices tellus convallis. Vestibulum ullamcorper velit vel odio varius, non malesuada justo efficitur. Vivamus eget lorem at purus posuere ultricies. Fusce nec libero eget justo dignissim varius. Maecenas sit amet lacinia erat, eu bibendum sapien. Sed congue, ante a tincidunt tempus, ipsum ligula hendrerit odio, a congue metus justo ac nisi. Proin et venenatis nulla. Aliquam erat volutpat. In sollicitudin, sem sit amet vestibulum bibendum, lorem enim sodales tellus, ut tincidunt dui ligula in nunc. Sed eget lectus nunc. Integer sit amet arcu eu dolor bibendum laoreet. Sed ac massa eget erat ultricies pharetra. Integer sit amet nunc velit.</p>
+        </div>
+
+        <button class="accordion">Hot-desk booking <p class="accordion-arrow"></p></button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor nisi sed erat bibendum, vel eleifend nulla volutpat.</p>
+        </div>
+
+        <button class="accordion">Status of employees <p class="accordion-arrow"></p></button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor nisi sed erat bibendum, vel eleifend nulla volutpat. Praesent consectetur libero at tellus bibendum, eu ultrices tellus convallis. Vestibulum ullamcorper velit vel odio varius, non malesuada justo efficitur.</p>
+        </div>
+
+        <button class="accordion">Request management <p class="accordion-arrow"></p></button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor nisi sed erat bibendum, vel eleifend nulla volutpat. Praesent consectetur libero at tellus bibendum, eu ultrices tellus convallis. Vestibulum ullamcorper velit vel odio varius, non malesuada justo efficitur. Vivamus eget lorem at purus posuere ultricies. Fusce nec libero eget justo dignissim varius. Maecenas sit amet lacinia erat, eu bibendum sapien. Sed congue, ante a tincidunt tempus, ipsum ligula hendrerit odio, a congue metus justo ac nisi. Proin et venenatis nulla. Aliquam erat volutpat. In sollicitudin, sem sit amet vestibulum bibendum, lorem enim sodales tellus, ut tincidunt dui ligula in nunc. Sed eget lectus nunc. Integer sit amet arcu eu dolor bibendum laoreet. Sed ac massa eget erat ultricies pharetra. Integer sit amet nunc velit.</p>
+        </div>
+
+        <button class="accordion">Hot-desk booking <p class="accordion-arrow"></p></button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor nisi sed erat bibendum, vel eleifend nulla volutpat.</p>
+        </div>
+
+        <button class="accordion">Status of employees <p class="accordion-arrow"></p></button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor nisi sed erat bibendum, vel eleifend nulla volutpat. Praesent consectetur libero at tellus bibendum, eu ultrices tellus convallis. Vestibulum ullamcorper velit vel odio varius, non malesuada justo efficitur.</p>
+        </div>
+
+        <button class="accordion">Request management <p class="accordion-arrow"></p></button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor nisi sed erat bibendum, vel eleifend nulla volutpat. Praesent consectetur libero at tellus bibendum, eu ultrices tellus convallis. Vestibulum ullamcorper velit vel odio varius, non malesuada justo efficitur. Vivamus eget lorem at purus posuere ultricies. Fusce nec libero eget justo dignissim varius. Maecenas sit amet lacinia erat, eu bibendum sapien. Sed congue, ante a tincidunt tempus, ipsum ligula hendrerit odio, a congue metus justo ac nisi. Proin et venenatis nulla. Aliquam erat volutpat. In sollicitudin, sem sit amet vestibulum bibendum, lorem enim sodales tellus, ut tincidunt dui ligula in nunc. Sed eget lectus nunc. Integer sit amet arcu eu dolor bibendum laoreet. Sed ac massa eget erat ultricies pharetra. Integer sit amet nunc velit.</p>
+        </div>
+    </section>
+    <!-- Content 2 section -->
+    <section class="content-2-section">
+        <div>
+            <h2>System </br>
+                requirements</h2>
+        </div>
+        <div class="content-text add-padding">
+            <span>
+                zonifero business supports meeting rooms booking. Reservations can be made from the smarphone, tablet in front of the room or directly from the calendar in Office365 or G Suite. Room reservations can also be made in companies that are not familiar with Office 365 or G Suite services.
+            </span>
+        </div>
+    </section>
+    <!-- Content 3 section -->
+    <section class="content-3-section">
+        <div>
+            <h3>Download</h3>
+            <span>ZONIFERO WorkPlace </br>
+                    brochure and specification</span>
+        </div>
+        <div class="pdf-info">
+            <p id="PDF-border">PDF</p>
+            <p id="PDF-no-border">19.34 MB</p>
+        </div>
+        <div>
+            <button class="square-button">Download</button>
+        </div>
+    </section>
+    <!-- Content 4 section -->
+    <section class="content-4-section">
+        <div>
+            <h2>
+                Bring your </br>
+                building </br>
+                back to 21st </br>
+                century
+            </h2>
+        </div>
+        <div class="c-4-text">
+            <span>
+                The IoT allows your office to be sensed or controlled remotely across existing network infrastrucutre. Track and analyse workplace performance to gain your office efficitenty.
+            </span>
+        </div>
+        <img src="../assets/mob_czujka.png" alt="router" />
+    </section>
+    <section class="content-4-section">
+        <div class="c-4-text">
+            <h3>Sensors</h3>
+            <p>
+                zonifero business supports meeting rooms booking. Reservations can be made from the smarphone, tablet in front of the room or directly from the calendar in Office365 or G Suite. Room reservations can also be made in companies that are not familiar with Office 365 or G Suite services.
+            </p>
+        </div>
+    </section>
+    <!-- Content 5 section -->
+    <section class="content-5-section">
+        <div>
+            <h2>
+                Partners
+            </h2>
+        </div>
+        <div class="black-box-text">
+            <span>Nowy Styl Group</span>
+        </div>
+        <div class="c-5-text">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor nisi sed erat bibendum, vel eleifend nulla volutpat. Praesent consectetur.
+            </p>
+        </div>
+    </section>
+    <!-- Content 6 section -->
+    <section class="content-6-section">
+        <div>
+            <h2>
+                Zoptymalizuj </br>
+                koszty </br>
+                i ergonomię </br>
+                biura </br>
+                z Zonifero
+            </h2>
+        </div>
+        <div class="c-6-text">
+            <span>
+                Zarządzaj świadomie rozwojem biura, optymalizuj koszty związane z usługami i powierzchnią, a także podnoś komfort pracy dzięki jednemu systemowi.
+            </span>
+        </div>
+        <img src="../assets/mob_devices copy.png" alt="devices" />
+        <div class="c-6-header-no-padding">
+            <h2>523%</h2>
+        </div>
+        <div class="c-6-text">
+            <p>Długoterminowe korzyści z wdrożenia Zonifero wynoszą co najmniej 523%* w stosunku do wydanej kwoty. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempor sem sit amet purus maximus, eu fringilla orci rhoncus.</p>
+        </div>
+    </section>
+    <!-- Content 7 section -->
+    <section class="content-7-section">
+        <div>
+            <h2>
+                Shop zonifero </br>
+                accesories
+            </h2>
+        </div>
+        <div class="black-box-text">
+            <span>Nowy Styl Group</span>
+        </div>
+        <div class="c-7-text">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor nisi sed erat bibendum, vel eleifend nulla volutpat. Praesent consectetur.
+            </p>
+        </div>
+    </section>
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script> 
     <script src="../scripts/swiper.js"></script>
+    <script src="../scripts/accordion.js"></script>
 </body>
 </html>

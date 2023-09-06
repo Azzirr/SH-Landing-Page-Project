@@ -1,5 +1,5 @@
 .management {
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: #F7F7F7;
   padding-top: 80px;
 }
@@ -8,19 +8,106 @@
   margin-left: 20px;
 }
 .management .p-bottom h4 {
-  padding: 20px;
+  padding: 40px 20px 20px 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
-
-.swiper-container {
+.management .swiper-container {
   background-color: #F7F7F7;
   padding: 20px;
 }
-
-.swiper-slide {
+.management .swiper-slide {
   max-width: 100%;
   padding-bottom: 10%;
 }
-
-.slide-text {
+.management .slide-text {
   font-size: 18px;
+}
+.management img {
+  margin-left: 25%;
+  margin-bottom: 10%;
+}
+
+.management-white {
+  background-color: #FFFFFF;
+}
+.management-white .swiper-container {
+  background-color: #FFFFFF;
+}
+
+.navigation-slider {
+  position: relative;
+}
+.navigation-slider .header-text {
+  background-color: #F7F7F7;
+}
+.navigation-slider .header-text h4 {
+  padding: 40px 20px 20px 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+.navigation-slider .navigation-image {
+  width: auto;
+  padding-bottom: 25%;
+  background-color: #3146FF;
+}
+.navigation-slider .navigation-image img {
+  width: 100%;
+  position: relative;
+}
+.navigation-slider .navigation-image #phone-image {
+  position: absolute;
+  left: -5%;
+  scale: 0.8;
+}
+.navigation-slider .swiper {
+  width: 100%;
+  height: 100%;
+}
+.navigation-slider .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  background-color: #3146FF;
+  height: 300px;
+}
+.navigation-slider .swiper-slide h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  color: #FFFFFF;
+  margin-left: 20px;
+}
+.navigation-slider .swiper-slide span {
+  display: block;
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #FFFFFF;
+  line-height: 25px;
+}
+.navigation-slider .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.navigation-slider .swiper-button-next, .navigation-slider .swiper-button-prev {
+  padding: 0px 10px 0px 10px;
+  background-color: #F7F7F7;
+  position: absolute;
+  top: 48%;
+}
+
+.separator-section {
+  background-color: #3146FF;
+  padding: 20px;
+  border-top: 1px dotted #F7F7F7;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
 }/*# sourceMappingURL=swiper.css.map */

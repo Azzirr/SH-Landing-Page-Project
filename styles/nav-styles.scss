@@ -119,6 +119,7 @@
 .navbar .menu-items {
   padding-top: 120px;
   box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  background-color: $white-color;
   height: 100vh;
   width: 100%;
   transform: translate(-150%);
@@ -200,7 +201,6 @@
   margin-left: 4px;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
-
 }
 
 // Second navbar (desktop only)
