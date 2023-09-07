@@ -1,11 +1,17 @@
 @import '_variables';
 
 
-.content-section, .content-2-section{
+.content-section, .content-2-section, .content-8-section{
     padding: 40px $p-20 0px $p-20;
     h2{
         font-family: $main-font;
         font-weight: 800;
+    }
+    h4, h5{
+        font-family: $second-font;
+    }
+    a{
+        color: $text-color;
     }
     .content-text{
         span{
@@ -37,8 +43,8 @@
     text-align: center;
     padding-bottom: 20px;
     .pdf-info {
-        display: flex; /* Ustawiamy flex container */
-        align-items: center; /* Wyrównujemy elementy pionowo do środka */
+        display: flex;
+        align-items: center;
         justify-content: center;
         p {
             font-family: $second-font;
@@ -58,17 +64,16 @@
     span{
         font-family: $second-font;
     }
-
-    .square-button {
-        display: inline-block;
-        padding: 20px 60px;
-        background-color: $product-color;
-        color: $white-color;
-        font-size: 18px;
-        border: none;
-        text-align: center;
-        cursor: pointer;
-    }
+}
+.square-button {
+    display: inline-block;
+    padding: 20px 60px;
+    background-color: $product-color;
+    color: $white-color;
+    font-size: 18px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
 }
 
 .content-4-section, .content-6-section{
@@ -143,28 +148,91 @@
     .c-7-text{
         padding: 0px $p-20 40px $p-20;
     }
-    .black-box-text{
-        background-color: #333333;
-        width: 55%;
-        padding: 5px $p-20 5px $p-20;
-        color: white;
-        margin-left: $ml-20;
-        span {
-            margin: 0;
-            font-family: $main-font;
-            font-size: 20px;
-            font-weight: 700;
-        }
+    .c-7-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: $p-20 0px $p-20 0px;
     }
     h2{
         font-family: $main-font;
         font-size: 36px;
-        padding: 60px $p-20 $p-20 $p-20;
+        padding: 60px $p-20 0px $p-20;
     }
     p{
         font-family: $second-font;
         font-size: 16px; 
         padding-top: $p-20;
     }
+    img{
+        max-width: 100%;
+        padding-left: 10px;
+        box-sizing: border-box;
+    }
 }
+.content-9-section{
+    background-color: $background-color;
+    max-height: 900px;
+    .typed-logo{
+        padding: $p-20;
+        line-height: 0;
+        .first-part{
+            font-family: $main-font;
+            font-weight: 700;
+            font-size: 20px;
+        }
+        .second-part{
+            font-family: $main-font;
+            font-weight: 700;
+            color: $product-color;
+            font-size: 48px;
+        }
+    }
+    .c-9-text{
+        padding: $p-20;
+        span{
+            font-family: $second-font;
+        }
+    }
+    .c-9-img{
+        overflow: hidden;
+        width: 100%;
+        max-height: 400px;
+        display: flex;
+        justify-content: center;
 
+        img{
+            height: 10%;
+            margin-left: -25%;
+        }
+    }
+    .padding-div{
+        padding: $p-20;
+    }
+}
+.information-container{
+    display: grid;
+    background-color: $background-color;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    padding-left: 12%;
+    padding-right: 12%;
+    .information-1, .information-2, .information-3{
+        padding: 40px;
+        h2, span{
+            font-family: $main-font;
+        }
+    }
+    .p-information{
+        padding: 40px;
+        h4{
+            font-family: $main-font;
+            font-weight: 300;
+        }
+    }
+}
+@media only screen and (max-width: 768px){
+    .information-container{
+        display: none
+    }
+}

@@ -1,4 +1,5 @@
 .management {
+  display: block;
   font-family: "Poppins", sans-serif;
   background-color: #F7F7F7;
   padding-top: 80px;
@@ -36,6 +37,7 @@
 }
 
 .navigation-slider {
+  display: block;
   position: relative;
 }
 .navigation-slider .header-text {
@@ -103,6 +105,54 @@
   top: 48%;
 }
 
+.management-desktop {
+  background-color: #F7F7F7;
+}
+.management-desktop .swiper {
+  width: 100%;
+  height: 100%;
+  padding: 40px 0px 60px 0px;
+}
+.management-desktop .swiper-slide {
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.management-desktop .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.management-desktop img {
+  scale: 0.5;
+}
+.management-desktop h3, .management-desktop span {
+  padding: 0px 40px 40px 40px;
+}
+.management-desktop h3 {
+  font-family: "Poppins", sans-serif;
+}
+.management-desktop span {
+  font-family: "Roboto", sans-serif;
+}
+
+.navigation-desktop-slider {
+  position: relative;
+}
+.navigation-desktop-slider #navigation-office {
+  max-width: 100%;
+}
+.navigation-desktop-slider #navigation-phone {
+  position: absolute;
+  right: 15%;
+  top: 50px;
+}
+
 .separator-section {
   background-color: #3146FF;
   padding: 20px;
@@ -110,4 +160,18 @@
   text-align: center;
   color: #FFFFFF;
   font-family: "Poppins", sans-serif;
+}
+
+@media only screen and (min-width: 769px) {
+  .management {
+    display: none;
+  }
+  .navigation-slider {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .management-desktop {
+    display: none;
+  }
 }/*# sourceMappingURL=swiper.css.map */

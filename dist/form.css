@@ -1,0 +1,63 @@
+.form-navigation {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.form-navigation .text {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.form-navigation .options {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+.form-navigation a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #000000;
+}
+.form-navigation a:focus {
+  font-weight: bold;
+  border-bottom: 3px solid #01FFCB;
+  padding-bottom: 5px;
+  -o-border-image: linear-gradient(to right, #01FFCB 50%, transparent 50%) 100% 1;
+     border-image: linear-gradient(to right, #01FFCB 50%, transparent 50%) 100% 1;
+}
+
+.form-inputs {
+  padding: 20px;
+}
+.form-inputs .required-field {
+  color: #3146FF;
+}
+.form-inputs .input-padding {
+  padding: 20px 0px 20px 0px;
+}
+.form-inputs .form-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-inputs label {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+.form-inputs input, .form-inputs textarea {
+  border: none;
+  border-bottom: 1px dotted #000000;
+  width: 100%;
+  font-size: 26px;
+}
+.form-inputs input:focus, .form-inputs textarea:focus {
+  outline: none;
+}
+
+.form-disclimer {
+  padding: 20px;
+}
+.form-disclimer span {
+  font-family: "Roboto", sans-serif;
+}/*# sourceMappingURL=form.css.map */
