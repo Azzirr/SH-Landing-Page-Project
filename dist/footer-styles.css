@@ -1,0 +1,21 @@
+.footer {
+  background-color: #3146FF;
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  padding: 40px 20px 20px 20px;
+}
+.footer li, .footer ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer .footer-navbar {
+  border-top: 1px dotted #FFFFFF;
+  width: 100%;
+  margin-top: 40px;
+}
+.footer .menu-toggle {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 0 0 0;
+}/*# sourceMappingURL=footer-styles.css.map */

@@ -1,0 +1,62 @@
+@import '_variables';   
+.form-navigation{
+    display: flex;
+    align-items: center;
+    padding: $p-20;
+    .text{
+      font-size: 20px;
+      font-family: $second-font;
+    }
+    .options{
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      font-family: $second-font;
+      font-size: 20px;
+    }
+    a{
+      font-size: 18px;
+      text-decoration: none;
+      color: $text-color;
+    }
+    a:focus{
+      font-weight: bold;
+      border-bottom: 3px solid $secondary-color;
+      padding-bottom: 5px;
+      border-image: linear-gradient(to right, $secondary-color 50%, transparent 50%) 100% 1;
+    }
+}
+
+.form-inputs{
+    padding: $p-20;
+    .required-field{
+        color: $product-color;
+    }
+    .input-padding{
+        padding: $p-20 0px $p-20 0px;
+    }
+    .form-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    label{
+        font-family: $second-font;
+        font-size: 12px;
+    }
+    input, textarea{
+        border: none;
+        border-bottom: 1px dotted $text-color;
+        width: 100%;
+        font-size: 26px;
+    }
+    input:focus, textarea:focus{
+       outline: none;
+    }
+}
+.form-disclimer{
+    padding: $p-20;
+    span{
+        font-family: $second-font;
+    }
+}

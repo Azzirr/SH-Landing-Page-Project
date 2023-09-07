@@ -1,0 +1,23 @@
+@import '_variables';
+.footer{
+    background-color: $product-color;
+    color: $white-color;
+    font-family: $second-font;
+    padding: 40px $p-20 $p-20 $p-20;
+    li, ol{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .footer-navbar{
+        border-top: 1px dotted $white-color;
+        width: 100%;
+        margin-top: 40px;
+    }
+    .menu-toggle {
+        display: flex;
+        justify-content: flex-end;
+        padding: $p-20 0 0 0;
+    }
+    
+}

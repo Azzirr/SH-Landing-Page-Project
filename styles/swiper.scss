@@ -2,6 +2,7 @@
 
 // Dotted mobile slider
 .management{
+    display: block;
     font-family: $main-font;
     background-color: $background-color;
     padding-top: 80px;
@@ -45,6 +46,7 @@
 
 // Navigation slider
 .navigation-slider{
+    display: block;
     position: relative;
     .header-text{
         background-color: $background-color;
@@ -114,6 +116,55 @@
     }
 }
 
+.management-desktop{
+    background-color: $background-color;
+    .swiper {
+        width: 100%;
+        height: 100%;
+        padding: 40px 0px 60px 0px;
+    }
+
+    .swiper-slide {
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    img{
+        scale: 0.5;
+    }
+    h3, span{
+        padding: 0px 40px 40px 40px;
+    }
+    h3{
+        font-family: $main-font;
+    }
+    span{
+        font-family: $second-font;
+    }
+}
+.navigation-desktop-slider{
+    position:relative;
+    #navigation-office{
+        max-width: 100%;
+    }
+    #navigation-phone{
+        position: absolute;
+        right: 15%;
+        top: 50px;
+    }
+}
+
 .separator-section{
     background-color: $product-color;
     padding: $p-20;
@@ -121,4 +172,18 @@
     text-align: center;
     color: $white-color;
     font-family: $main-font;
+}
+
+@media only screen and (min-width: 769px) {
+    .management {
+        display: none;
+    }
+    .navigation-slider{
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px){
+    .management-desktop{
+        display: none;
+    }
 }
