@@ -40,7 +40,7 @@
           </div>
         </div>
     </nav>
-    <!-- Desktop Navigation bar (min 768px) -->
+    <!-- Desktop Navigation bar (min 769px) -->
     <nav>
         <div class="navbar-desktop">
           <div class="nav-container">
@@ -143,8 +143,8 @@
             </div>
         </div>
     </main>
-    <!-- Desktop Information container HIDE! -->
-    <section class="information-container">
+    <!-- Desktop Information container -->
+    <section class="information-container mobile-none">
         <div class="information-1">
             <h2>Management</h2>
             <span>Tools for real-time management of all your facilities and people across multiple sites. Ease, speed and effectiveness of facialities communictaions.</span>
@@ -279,19 +279,38 @@
             <img src="../assets/Layer 78.png" id="navigation-office"/>
             <img src="../assets/Silver.png" id="navigation-phone" />
         </div>
-        <div>
-            <!-- <div>
-                <h2>
-                    Hot desk booking.</br>
-                    Like a pro.
-                </h2>
+        <div class="swiper navigationDesktopSlider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="left-column">
+                    <h2>Hot desk booking. </br>
+                        Like a pro.</h2>
+                </div>
+                <div class="right-column">
+                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique velit id finibus convallis. Fusce eget purus aliquet libero euismod blandit sed eu enim. Curabitur eget arcu ut augue.</span>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="left-column">
+                    <h2>Hot desk booking. </br>
+                        Like a pro.</h2>
+                </div>
+                <div class="right-column">
+                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique velit id finibus convallis. Fusce eget purus aliquet libero euismod blandit sed eu enim. Curabitur eget arcu ut augue.</span>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="left-column">
+                    <h2>Hot desk booking. </br>
+                        Like a pro.</h2>
+                </div>
+                <div class="right-column">
+                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique velit id finibus convallis. Fusce eget purus aliquet libero euismod blandit sed eu enim. Curabitur eget arcu ut augue.</span>
+                </div>
+              </div>
             </div>
-            <div>
-                <span>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique velit id finibus convallis. Fusce eget purus aliquet libero euismod blandit sed eu enim. Curabitur eget arcu ut augue.
-                </span>
-            </div> -->
-            
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
     </section>
     <!-- Navigation Mobile slider section -->
@@ -333,7 +352,6 @@
                 <span>Praesent id massa nec purus feugiat cursus. Sed nec velit nec libero dictum consequat. Duis non urna vel tellus vulputate tristique.</span>
               </div>
             </div>
-
           </div>
     </section>
 
@@ -349,12 +367,13 @@
     <section class="content-section">
         <div>
             <h2>Room booking</h2>
+            <div class="content-text">
+                <span>
+                    zonifero business supports meeting rooms booking. Reservations can be made from the smartphone, tablet in front of the room or directly from the calendar in Office365 or G suite. Room reservations can also be made in companies that are not familiar with Office 365 or G Suite services.
+                </span>
+            </div>
         </div>
-        <div class="content-text">
-            <span>
-                zonifero business supports meeting rooms booking. Reservations can be made from the smartphone, tablet in front of the room or directly from the calendar in Office365 or G suite. Room reservations can also be made in companies that are not familiar with Office 365 or G Suite services.
-            </span>
-        </div>
+
         <div class="content-text-with-photo">
             <div class="list">
                 <p><b>unlimited</b> rooms</p>
@@ -365,7 +384,7 @@
     </section>
 
     <!-- Accordion section -->
-    <section>
+    <section class="main-accordion">
         <button class="accordion">Hot-desk booking <p class="accordion-arrow"></p></button>
         <div class="panel">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor nisi sed erat bibendum, vel eleifend nulla volutpat.</p>
@@ -414,21 +433,35 @@
     <!-- Content 2 section -->
     <section class="content-2-section">
         <div>
-            <h2>System </br>
-                requirements</h2>
+            <div>
+                <h2>System <br class="mobile-break">
+                    requirements</h2>
+            </div>
+            <div class="content-text add-padding">
+                <span>
+                    zonifero business supports meeting rooms booking. Reservations can be made from the smartphone, tablet in front of the room or directly from the calendar in Office365 or G Suite. Room reservations can also be made in companies that are not familiar with Office 365 or G Suite services.
+                </span>
+            </div>
         </div>
-        <div class="content-text add-padding">
-            <span>
-                zonifero business supports meeting rooms booking. Reservations can be made from the smarphone, tablet in front of the room or directly from the calendar in Office365 or G Suite. Room reservations can also be made in companies that are not familiar with Office 365 or G Suite services.
-            </span>
+        <div class="content-2-text-desktop mobile-none">
+            <div>
+                <h2>24/7 Support</h2>
+            </div>
+            <div class="content-text add-padding">
+                <span>
+                    zonifero business supports meeting rooms booking. Reservations can be made from the smartphone, tablet in front of the room or directly from the calendar in Office365 or G Suite. Room reservations can also be made in companies that are not familiar with Office 365 or G Suite services.
+                </span>
+            </div>
         </div>
     </section>
     <!-- Content 3 section -->
     <section class="content-3-section">
         <div>
             <h3>Download</h3>
-            <span>ZONIFERO WorkPlace </br>
-                    brochure and specification</span>
+        </div>
+        <div>
+            <span>ZONIFERO WorkPlace <br class="mobile-break">
+                brochure and specification</span>
         </div>
         <div class="pdf-info">
             <p id="PDF-border">PDF</p>
@@ -440,26 +473,35 @@
     </section>
     <!-- Content 4 section -->
     <section class="content-4-section">
-        <div>
+        <div class="big-padding">
             <h2>
-                Bring your </br>
-                building </br>
-                back to 21st </br>
+                Bring your <br class="mobile-break">
+                building <br>
+                back to 21st <br class="mobile-break">
                 century
             </h2>
+            <div class="c-4-text">
+                <span>
+                    The IoT allows your office to be sensed or controlled remotely across existing network infrastrucutre. Track and analyse workplace performance to gain your office efficitenty.
+                </span>
+            </div>
         </div>
-        <div class="c-4-text">
-            <span>
-                The IoT allows your office to be sensed or controlled remotely across existing network infrastrucutre. Track and analyse workplace performance to gain your office efficitenty.
-            </span>
-        </div>
-        <img src="../assets/mob_czujka.png" alt="router" />
+        <img src="../assets/mob_czujka.png" id="czujka" alt="router" />
     </section>
     <section class="content-4-section">
-        <div class="c-4-text">
+        <div class="c-4-text c-4-text-desktop">
             <h3>Sensors</h3>
             <p>
                 zonifero business supports meeting rooms booking. Reservations can be made from the smarphone, tablet in front of the room or directly from the calendar in Office365 or G Suite. Room reservations can also be made in companies that are not familiar with Office 365 or G Suite services.
+            </p>
+        </div>
+        <div class="c-4-text mobile-none">
+            <h3>Real-time conference room and desk availability updates</h3>
+            <p>
+                Zonifero business supports the booking of hot-desks, meeting and other rooms. Reservations can be made from the application on the tablet in front of the room or directly from the calendar in Office365 or G Suite. Room reservations can also be made for businesses that do not use Office 365 or G Suite.
+            </p>
+            <p>
+                zonifero business also has a calendar feature that can be run on a
             </p>
         </div>
     </section>
@@ -469,33 +511,65 @@
             <h2>
                 Partners
             </h2>
+            <div class="c-5-text mobile-none">
+                <p>
+                    We only work with the best. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt laoreet erat. Praesent laoreet.
+                </p>
+            </div>
         </div>
-        <div class="black-box-text">
-            <span>Nowy Styl Group</span>
-        </div>
-        <div class="c-5-text">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor nisi sed erat bibendum, vel eleifend nulla volutpat. Praesent consectetur.
-            </p>
+        <div class="partners-desktop">
+            <div>
+                <div class="black-box-text">
+                    <span>Nowy Styl Group</span>
+                </div>
+                <div class="c-5-text">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor nisi sed erat bibendum, vel eleifend nulla volutpat. Praesent consectetur.
+                    </p>
+                </div>
+            </div>
+            <div class="mobile-none">
+                <div>
+                    <img src="../assets/Layer 504.png" alt="microsoft" />
+                </div>
+                <div class="c-5-text no-padding">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor nisi sed erat bibendum, vel eleifend nulla volutpat. Praesent consectetur.
+                    </p>
+                </div>
+            </div>
+            <div class="mobile-none">
+                <div class="black-box-text">
+                    <span>Nowy Styl Group</span>
+                </div>
+                <div class="c-5-text">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor nisi sed erat bibendum, vel eleifend nulla volutpat. Praesent consectetur.
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
     <!-- Content 6 section -->
-    <section class="content-6-section">
+    <section class="content-6-section c-6-desktop-header">
         <div>
-            <h2>
-                Zoptymalizuj </br>
-                koszty </br>
-                i ergonomię </br>
-                biura </br>
-                z Zonifero
-            </h2>
+            <div>
+                <h2>
+                    Zoptymalizuj <br class="mobile-break">
+                    koszty </br>
+                    i ergonomię <br class="mobile-break">
+                    biura <br>
+                    z Zonifero
+                </h2>
+            </div>
+            <div class="c-6-text">
+                <span>
+                    Zarządzaj świadomie rozwojem biura, optymalizuj koszty związane z usługami i powierzchnią, a także podnoś komfort pracy dzięki jednemu systemowi.
+                </span>
+            </div>
         </div>
-        <div class="c-6-text">
-            <span>
-                Zarządzaj świadomie rozwojem biura, optymalizuj koszty związane z usługami i powierzchnią, a także podnoś komfort pracy dzięki jednemu systemowi.
-            </span>
-        </div>
-        <img src="../assets/mob_devices copy.png" alt="devices" />
+        <img src="../assets/mob_devices copy.png" alt="devices" class="mobile-break"/>
+        <!-- <img src="../assets/devices.png" class="mobile-none"/>   -->
         <div class="c-6-header-no-padding">
             <h2>523%</h2>
         </div>

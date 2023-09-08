@@ -223,7 +223,133 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .information-container {
+  .mobile-none {
+    display: none;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .content-section, .content-2-section {
+    max-width: 1024px;
+    padding: 40px 0px 0px 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .content-section h2, .content-2-section h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    padding-top: 100px;
+  }
+  .content-section h4, .content-section h5, .content-2-section h4, .content-2-section h5 {
+    font-family: "Roboto", sans-serif;
+  }
+  .content-section a, .content-2-section a {
+    color: #000000;
+  }
+  .content-section .content-text span, .content-2-section .content-text span {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    line-height: 20px;
+  }
+  .content-section .content-2-text-desktop, .content-2-section .content-2-text-desktop {
+    margin-left: 100px;
+  }
+  .content-section .content-text-with-photo, .content-2-section .content-text-with-photo {
+    height: 446px;
+    background-image: url("../assets/Space_Gray.png");
+    background-repeat: no-repeat;
+  }
+  .content-section .content-text-with-photo .list, .content-2-section .content-text-with-photo .list {
+    margin-left: 500px;
+  }
+  .content-section .content-text-with-photo p, .content-2-section .content-text-with-photo p {
+    margin-left: 50%;
+    font-family: "Roboto", sans-serif;
+  }
+  .content-section .add-padding, .content-2-section .add-padding {
+    padding-bottom: 40px;
+  }
+  .content-3-section {
+    width: 80%;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+    padding-top: 20px;
+  }
+  .content-3-section h3 {
+    padding-top: 0px;
+    padding-bottom: 0;
+  }
+  .content-4-section, .content-6-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .content-4-section .c-4-text, .content-6-section .c-4-text {
+    max-width: 600px;
+  }
+  .content-4-section .c-4-text-desktop, .content-4-section .c-6-text-desktop, .content-6-section .c-4-text-desktop, .content-6-section .c-6-text-desktop {
+    margin-left: 18%;
+  }
+  .content-4-section .c-4-img, .content-4-section .c-6-img, .content-6-section .c-4-img, .content-6-section .c-6-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .content-4-section .c-6-header-no-padding h2, .content-6-section .c-6-header-no-padding h2 {
+    padding: 0px 0px 0px 20px;
+  }
+  .content-4-section .big-padding, .content-6-section .big-padding {
+    padding: 15% 15% 15% 0;
+    margin-left: 18%;
+  }
+  .content-4-section img, .content-6-section img {
+    max-width: 100%;
+    margin-left: 250px;
+    padding-top: 160px;
+    scale: 2;
+    box-sizing: border-box;
+  }
+  .content-4-section h2, .content-6-section h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 56px;
+    padding: 60px 20px 40px 20px;
+  }
+  .content-4-section h3, .content-6-section h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+  }
+  .content-4-section span, .content-6-section span {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+  }
+  .content-4-section p, .content-6-section p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+  }
+  .content-5-section {
+    margin-left: 9%;
+  }
+  .content-5-section .c-5-text p {
+    width: 50%;
+  }
+  .content-5-section .black-box-text {
+    padding: 10px 20px 10px 20px;
+    width: 170px;
+  }
+  .content-5-section .partners-desktop {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .content-5-section .no-padding {
+    padding-left: 0px;
+  }
+  .c-6-desktop-header {
+    margin-left: 9%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  .mobile-break {
     display: none;
   }
 }/*# sourceMappingURL=content-styles.css.map */

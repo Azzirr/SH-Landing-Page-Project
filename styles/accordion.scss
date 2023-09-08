@@ -15,8 +15,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-top: 1px solid #cccccc;
 }
-  
+
+.accordion:focus{
+    color: $product-color;
+}
+
 .active, .accordion:hover {
     background-color: $background-color;
 }
@@ -39,4 +44,10 @@
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     margin-left: 10px;
+}
+@media only screen and (min-width: 769px){
+    .main-accordion{
+        width: 80%;
+        padding-left: 10%;
+    }
 }

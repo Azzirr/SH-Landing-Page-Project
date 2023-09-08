@@ -149,8 +149,43 @@
 }
 .navigation-desktop-slider #navigation-phone {
   position: absolute;
-  right: 15%;
-  top: 50px;
+  right: 20%;
+  z-index: 2;
+}
+.navigation-desktop-slider .swiper {
+  width: 100%;
+  height: 100%;
+  background-color: #3146FF;
+  padding: 80px 0px 80px 0px;
+}
+.navigation-desktop-slider .swiper-slide {
+  background-color: #3146FF !important;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigation-desktop-slider .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.navigation-desktop-slider .left-column, .navigation-desktop-slider .right-column {
+  flex: 1;
+}
+.navigation-desktop-slider .left-column h2, .navigation-desktop-slider .right-column h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  color: #FFFFFF;
+  text-align: left;
+  padding-left: 30%;
+}
+.navigation-desktop-slider .left-column span, .navigation-desktop-slider .right-column span {
+  font-family: "Roboto", sans-serif;
+  color: #FFFFFF;
 }
 
 .separator-section {
@@ -171,7 +206,7 @@
   }
 }
 @media only screen and (max-width: 768px) {
-  .management-desktop {
+  .management-desktop, .navigation-desktop-slider {
     display: none;
   }
 }/*# sourceMappingURL=swiper.css.map */
