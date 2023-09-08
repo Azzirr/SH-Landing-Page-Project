@@ -17,3 +17,10 @@ const swiper_desk = new Swiper(".deskDottedSwiper", {
     spaceBetween: 30,
     grabCursor: true,
 });
+
+const navigation_desk_swiper = new Swiper(".navigationDesktopSlider", {
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+})
