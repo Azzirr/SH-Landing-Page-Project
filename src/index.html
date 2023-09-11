@@ -62,8 +62,7 @@
             </div>
           </div>
         </div>
-    </nav>
-    <!-- Desktop Second navigation bar -->
+            <!-- Desktop Second navigation bar -->
     <nav class="second-nav">
         <div class="text">
             <span>zonifero WorkPlace:</span>
@@ -86,6 +85,8 @@
             </div>
         </div>
     </nav>
+    </nav>
+
     <!-- Main header -->
     <main class="main-header-container-desktop">
         <div>
@@ -569,30 +570,49 @@
             </div>
         </div>
         <img src="../assets/mob_devices copy.png" alt="devices" class="mobile-break"/>
-        <!-- <img src="../assets/devices.png" class="mobile-none"/>   -->
+        <img src="../assets/devices.png" class="mobile-none"/>  
+    </section>
+    <section class="content-6-section c-6-desktop-header">
         <div class="c-6-header-no-padding">
-            <h2>523%</h2>
-        </div>
-        <div class="c-6-text">
-            <p>Długoterminowe korzyści z wdrożenia Zonifero wynoszą co najmniej 523%* w stosunku do wydanej kwoty. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempor sem sit amet purus maximus, eu fringilla orci rhoncus.</p>
+            <div>
+                <h2>523%</h2>
+                <div class="c-6-text">
+                    <p>Długoterminowe korzyści z wdrożenia Zonifero wynoszą co najmniej 523%* w stosunku do wydanej kwoty. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempor sem sit amet purus maximus, eu fringilla orci rhoncus.</p>
+                    <p><small>* Wyliczenia są zależne od lokalizacji biura</small></p>
+                </div>
+            </div>
+            <div class="mobile-none">
+                <h2>320+</h2>
+                <div class="c-6-text">
+                    <p>Długoterminowe korzyści z wdrożenia Zonifero wynoszą co najmniej 523%* w stosunku do wydanej kwoty. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempor sem sit amet purus maximus, eu fringilla orci rhoncus.</p>
+                    <p><small>* Wyliczenia są zależne od lokalizacji biura</small></p>
+                </div>
+            </div>
         </div>
     </section>
     <!-- Content 7 section -->
     <section class="content-7-section">
-        <div>
-            <h2>
-                Shop zonifero </br>
-                accesories
-            </h2>
-        </div>
-        <div class="c-7-text">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dignissim felis id nisl egestas.
-            </p>
-        </div>
-        <img src="../assets/mob_starter_kit.png" alt="starter kit" />
-        <div class="c-7-button">
-            <button class="square-button">Contact Us</button>
+        <div class="c-7-div">
+            <div>
+                <div>
+                    <h2>
+                        Shop zonifero </br>
+                        accesories
+                    </h2>
+                </div>
+                <div class="c-7-text">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dignissim felis id nisl egestas.
+                    </p>
+                </div>
+                <img src="../assets/mob_starter_kit.png" alt="starter kit" class="mobile-break"/>
+                <div class="c-7-button">
+                    <button class="square-button">Contact Us</button>
+                </div>
+            </div>
+            <div>
+                <img src="../assets/starter kit.png" alt="starter kit" class="mobile-none"/>
+            </div>
         </div>
     </section>
     <!-- Content 8 section -->
@@ -612,6 +632,13 @@
             <h4>Can I use Zonifero anywhere in world?</h4>
             <h4>I've got a problem, how do I contact support?</h4>
         </div>
+        <div class="content-text add-padding mobile-none">
+            <h4>Is Zonifero owned by SoftwareHut?</h4>
+            <h4>How does Zonifero work?</h4>
+            <h4>How does Zonifero's pricing work?</h4>
+            <h4>Do you have any other fees?</h4>
+            <h4>Which currencies do you support?</h4>
+        </div>
     </section>
     <!-- Contact form section -->
     <section>
@@ -625,51 +652,53 @@
                 </div>
             </div>
         </nav>
-        <form class="form-inputs">
-            <div>
-                <label for="firstName">First name <span class="required-field">*</span></label> </br>
-                <div class="input-padding">
-                    <input type="text" id="firstName" name="firstName" placeholder="John" required>
+        <div class="form-desktop-center">
+            <form class="form-inputs">
+                <div class="grid-template-desktop">
+                    <div>
+                        <label for="firstName">First name <span class="required-field">*</span></label> </br>
+                        <div class="input-padding">
+                            <input type="text" id="firstName" name="firstName" placeholder="John" required>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="secondName">Family name <span class="required-field">*</span></label> </br>
+                        <div class="input-padding">
+                            <input type="text" id="secondName" name="secondName" placeholder="Wick" required>
+                        </div>
+                    </div>
                 </div>
-            </div>
-    
-            <div>
-                <label for="secondName">Family name <span class="required-field">*</span></label> </br>
-                <div class="input-padding">
-                    <input type="text" id="secondName" name="secondName" placeholder="Wick" required>
+                <div class="grid-template-desktop">
+                    <div>
+                        <label for="email">Your email <span class="required-field">*</span></label> </br>
+                        <div class="input-padding">
+                            <input type="text" id="email" name="email" placeholder="johnw@hollywood.com" required>
+                        </div>
+                    </div>
+                    <div class="different-order">
+                        <label for="phone">Your phone</label> </br>
+                        <div class="input-padding">
+                            <input type="text" id="phone" name="phone" required placeholder="+48 605 708 904">
+                        </div>
+                    </div>
                 </div>
-            </div>
-    
-            <div>
-                <label for="email">Your email <span class="required-field">*</span></label> </br>
-                <div class="input-padding">
-                    <input type="text" id="email" name="email" placeholder="johnw@hollywood.com" required>
+                <div>
+                    <label for="yourMessage">Message <span class="required-field">*</span></label> </br>
+                    <div class="input-padding">
+                        <textarea type="area" id="yourMessage" name="yourMessage" rows="3" placeholder="Hello :) I'm just wondering if you could..." required></textarea>
+                    </div>
                 </div>
-            </div>
-    
-            <div>
-                <label for="phone">Your phone</label> </br>
-                <div class="input-padding">
-                    <input type="text" id="phone" name="phone" required placeholder="+48 605 708 904">
+                <div class="form-button">
+                    <button type="submit" class="square-button">Send Message</button>
                 </div>
-            </div>
-    
-            <div>
-                <label for="yourMessage">Message <span class="required-field">*</span></label> </br>
-                <div class="input-padding">
-                    <textarea type="area" id="yourMessage" name="yourMessage" rows="3" placeholder="Hello :) I'm just wondering if you could..." required></textarea>
-                </div>
-            </div>
-            <div class="form-button">
-                <button type="submit" class="square-button">Send Message</button>
-            </div>
-        </form>
+            </form>
+        </div>
         <div class="form-disclimer">
             <span>Zonifero product family</span>
         </div>
     </section>
     <!-- Content 9 section -->
-    <section class="content-9-section">
+    <section class="content-9-section mobile-break">
         <div class="typed-logo">
             <p class="first-part">zonifero</p>
             <p class="second-part">Lobby</p>
@@ -678,43 +707,98 @@
             <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempor ligula nec fermentum tempor.</span>
         </div>
         <div class="c-9-img">
-            <img src="../assets/Silver.png">
+            <img src="../assets/Silver.png" alt="phone">
         </div>
         <div class="padding-div"></div>
     </section>
+    <section class="content-9-section-swiper-desktop mobile-none">
+        <div class="swiper productFamilyDesktopSlider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="typed-logo">
+                    <p class="first-part">zonifero</p>
+                    <p class="second-part">Passport</p>
+                </div>
+                <span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error optio non ipsa cupiditate doloremque ab.
+                </span>
+                <div class="c-9-img">
+                    <img src="../assets/Silver.png" alt="phone"/>
+                </div>              
+            </div>
+              <div class="swiper-slide">
+                <div class="typed-logo">
+                    <p class="first-part">zonifero</p>
+                    <p class="second-part">Services</p>
+                </div>
+                <span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error optio non ipsa cupiditate doloremque ab.
+                </span>
+                <div class="c-9-img">
+                    <img src="../assets/Silver.png" alt="phone"/>
+                </div>              
+            </div>
+              <div class="swiper-slide">
+                <div class="typed-logo">
+                    <p class="first-part">zonifero</p>
+                    <p class="second-part">TV</p>
+                </div>
+                <span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error optio non ipsa cupiditate doloremque ab.
+                </span>
+                <div class="c-9-img">
+                    <img src="../assets/Silver.png" alt="phone"/>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="typed-logo">
+                    <p class="first-part">zonifero</p>
+                    <p class="second-part">Lobby</p>
+                </div>
+                <span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error optio non ipsa cupiditate doloremque ab.
+                </span>
+                <div class="c-9-img">
+                    <img src="../assets/Silver.png" alt="phone"/>
+                </div>              </div>
+            </div>
+          </div>
+    </section>
     <!-- Footer section -->
     <footer class="footer">
-        <div>
-            <h4>Products:</h4>
+        <div class="footer-desktop">
             <div>
-                <ol>
-                    <li>zonifero business</li>
-                    <li>zonifero real estate</li>
-                    <li>zonifero lobby</li>
-                    <li>zonifero services</li>
-                    <li>zonifero tv</li>
-                </ol>
+                <h4>Products:</h4>
+                <div>
+                    <ol>
+                        <li>zonifero business</li>
+                        <li>zonifero real estate</li>
+                        <li>zonifero lobby</li>
+                        <li>zonifero services</li>
+                        <li>zonifero tv</li>
+                    </ol>
+                </div>
             </div>
-        </div>
-        <div>
-            <h4>Resources:</h4>
             <div>
-                <ol>
-                    <li>Documentation</li>
-                    <li>FAQ</li>
-                    <li>Blog</li>
-                    <li>Media</li>
-                </ol>
+                <h4>Resources:</h4>
+                <div>
+                    <ol>
+                        <li>Documentation</li>
+                        <li>FAQ</li>
+                        <li>Blog</li>
+                        <li>Media</li>
+                    </ol>
+                </div>
             </div>
-        </div>
-        <div>
-            <h4>About:</h4>
             <div>
-                <ol>
-                    <li>About us</li>
-                    <li>Company</li>
-                    <li>Blog</li>
-                </ol>
+                <h4>About:</h4>
+                <div>
+                    <ol>
+                        <li>About us</li>
+                        <li>Company</li>
+                        <li>Blog</li>
+                    </ol>
+                </div>
             </div>
         </div>
         <nav class="footer-navbar">

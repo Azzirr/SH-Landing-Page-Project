@@ -19,5 +19,12 @@
         justify-content: flex-end;
         padding: $p-20 0 0 0;
     }
-    
+    .footer-desktop{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 9%;
+        padding: 60px 0px 100px 0px;
+        width: 70%;
+        line-height: 30px;
+    }
 }
