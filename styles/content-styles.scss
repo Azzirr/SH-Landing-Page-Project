@@ -173,21 +173,6 @@
 .content-9-section{
     background-color: $background-color;
     max-height: 900px;
-    .typed-logo{
-        padding: $p-20;
-        line-height: 0;
-        .first-part{
-            font-family: $main-font;
-            font-weight: 700;
-            font-size: 20px;
-        }
-        .second-part{
-            font-family: $main-font;
-            font-weight: 700;
-            color: $product-color;
-            font-size: 48px;
-        }
-    }
     .c-9-text{
         padding: $p-20;
         span{
@@ -229,6 +214,21 @@
             font-family: $main-font;
             font-weight: 300;
         }
+    }
+}
+.typed-logo{
+    padding: $p-20;
+    line-height: 0;
+    .first-part{
+        font-family: $main-font;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .second-part{
+        font-family: $main-font;
+        font-weight: 700;
+        color: $product-color;
+        font-size: 48px;
     }
 }
 @media only screen and (max-width: 768px){
@@ -308,9 +308,16 @@
             align-items: center;
         }
         .c-6-header-no-padding{
+            display: grid;
+            grid-template-columns: 90% 90%;
             h2{
                 padding: 0px 0px 0px $p-20;
+                font-size: 64px;
             }
+        }
+        .c-6-text{
+            font-family: $main-font;
+            line-height: 30px;
         }
         .big-padding{
             padding: 15% 15% 15% 0;
@@ -360,11 +367,57 @@
             padding-left: 0px;
         }
     }
+    .content-7-section{
+        .c-7-div{
+            margin-left: 9%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+        }
+        .c-7-button{
+            margin-left: 3%;
+            justify-content: left;
+        }
+    }
+    .content-8-section{
+        margin-left: 9%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        h2{
+            font-size: 48px;
+        }
+    }
     .c-6-desktop-header{
         margin-left: 9%;
-        max-width: 100%;
         box-sizing: border-box;
+        img{
+            max-width: 932px;
+            scale: 1;
+            height: auto;
+        }
 
+    }
+    .form-navigation{
+        justify-content: center;
+    }
+    .form-desktop-center{
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        .grid-template-desktop{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10%;
+            .different-order{
+                order: -1;
+            }
+        }
+    }
+    .form-disclimer{
+        margin-left: 9%;
+    }
+    .form-inputs{
+        width: 60%;
     }
     .mobile-break{
         display: none;

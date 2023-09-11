@@ -13,7 +13,7 @@ const swiper_mob_2 = new Swiper(".navigationSwiper", {
 
 const swiper_desk = new Swiper(".deskDottedSwiper", {
     slidesPerView: 6,
-    centeredSlides: true,
+    centeredSlides: false,
     spaceBetween: 30,
     grabCursor: true,
 });
@@ -23,4 +23,11 @@ const navigation_desk_swiper = new Swiper(".navigationDesktopSlider", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
+})
+
+const productFamily_desk_swiper = new Swiper(".productFamilyDesktopSlider", {
+    slidesPerView: 5,
+    centeredSlides: true,
+    spaceBetween: 30,
+    grabCursor: true,
 })
