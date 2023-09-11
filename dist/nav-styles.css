@@ -13,6 +13,10 @@
 
 .navbar-desktop {
   width: 100%;
+  position: sticky;
+  top: -100px;
+  z-index: 1000;
+  background-color: #FFFFFF;
 }
 
 @media screen and (max-width: 768px) {
@@ -204,7 +208,7 @@
 .second-nav {
   display: flex;
   align-items: center;
-  margin-left: 15%;
+  padding-left: 15%;
   gap: 80px;
   padding-top: 60px;
   padding-bottom: 40px;
