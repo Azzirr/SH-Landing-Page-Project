@@ -27,4 +27,14 @@
         width: 70%;
         line-height: 30px;
     }
+    @media only screen and (max-width: 768px){
+        .footer-mobile{
+            display: initial;
+            grid-template-columns: initial;
+            margin-left: initial;
+            padding: initial;
+            width: initial;
+            line-height: initial;        
+        }
+    }
 }
