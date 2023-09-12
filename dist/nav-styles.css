@@ -228,7 +228,7 @@
   text-decoration: none;
   color: #000000;
 }
-.second-nav a:focus {
+.second-nav a:focus, .second-nav .focus-on-scroll {
   font-weight: bold;
   border-bottom: 3px solid #01FFCB;
   padding-bottom: 5px;

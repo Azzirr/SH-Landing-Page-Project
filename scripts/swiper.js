@@ -13,7 +13,7 @@ const swiper_mob_2 = new Swiper(".navigationSwiper", {
 
 const swiper_desk = new Swiper(".deskDottedSwiper", {
     slidesPerView: 6,
-    centeredSlides: false,
+    centeredSlides: true,
     spaceBetween: 30,
     grabCursor: true,
 });

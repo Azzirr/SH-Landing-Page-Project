@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Zonifero</title>
     <link rel="stylesheet" href="../dist/nav-styles.css">
     <link rel="stylesheet" href="../dist/main-header-styles.css">
     <link rel="stylesheet" href="../dist//swiper.css">
@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../dist/accordion.css">
     <link rel="stylesheet" href="../dist/form.css">
     <link rel="stylesheet" href="../dist/footer-styles.css">
+    <link rel="stylesheet" href="../dist/responsive-for-desktop.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
@@ -41,7 +42,7 @@
         </div>
     </nav>
     <!-- Desktop Navigation bar (min 769px) -->
-    <nav  class="navbar-desktop">
+    <nav class="navbar-desktop">
         <div>
           <div class="nav-container">
             <div class="logo">
@@ -69,19 +70,19 @@
             </div>
             <div class="options">
                 <div>
-                    <a href="#">Overview</a>
+                    <a href="#overview">Overview</a>
                 </div>
                 <div>
-                    <a href="#">Features</a>
+                    <a href="#features">Features</a>
                 </div>
                 <div>
-                    <a href="#">Specs</a>
+                    <a href="#specs">Specs</a>
                 </div>
                 <div>
-                    <a href="#">FAQ</a>
+                    <a href="#faq">FAQ</a>
                 </div>
                 <div>
-                    <a href="#">Contact</a>
+                    <a href="#contact">Contact</a>
                 </div>
             </div>
         </nav>
@@ -103,10 +104,12 @@
                 </div>
                 <div id="3">
                     <div class="margin download-section">
-                        <img src="../assets/google_store_badge.png" alt="google play" style="margin-left: -360px;" />
-                        <img src="../assets/apple_store_badge.png" alt="app store" />
-                    </div>
-                    <div>           
+                        <a href="https://play.google.com/store/apps/details?id=com.softwarehut.officeapp.softwarehut" target="_blank">
+                            <img src="../assets/google_store_badge.png" alt="google play" style="margin-left: -360px;" />
+                        </a>
+                        <a href="https://apps.apple.com/pl/app/zonifero/id1189756256" target="_blank">
+                            <img src="../assets/apple_store_badge.png" alt="app store" />
+                        </a>
                     </div>
                 </div>
             </div>
@@ -136,17 +139,21 @@
                     </div>
                     <div class="photo-content-2">
                         <div class="">
-                            <img src="../assets/google_store_badge_cropped.png" />
+                            <a href="https://play.google.com/store/apps/details?id=com.softwarehut.officeapp.softwarehut" target="_blank">
+                                <img src="../assets/google_store_badge_cropped.png" alt="google play"/>
+                            </a>
                         </div>
                         <div class="">
-                            <img src="../assets/apple_store_badge.png"/>
+                            <a href="https://apps.apple.com/pl/app/zonifero/id1189756256" target="_blank">
+                                <img src="../assets/apple_store_badge.png" alt="app store"/>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </main>
         <!-- Desktop Information container -->
-        <section class="information-container mobile-none">
+        <section class="information-container mobile-none" id="overview">
             <div class="information-1">
                 <h2>Management</h2>
                 <span>Tools for real-time management of all your facilities and people across multiple sites. Ease, speed and effectiveness of facialities communictaions.</span>
@@ -263,7 +270,7 @@
                 <img src="../assets/desk_icon.png" alt="Two desks" />
             </div>
             <div>
-                <h2>a and space smarter</h2>
+                <h2>Use your time and space smarter</h2>
             </div>
             <div class="swiper dottedSwiper management-white">
                 <div class="swiper-wrapper swiper-container management-white">
@@ -276,10 +283,12 @@
             </div>
         </section>
         <!-- Navigation Desktop slider section -->
-        <section class="navigation-desktop-slider">
+        <section class="navigation-desktop-slider" id="features">
             <div class="navigation-image">
                 <img src="../assets/Layer 78.png" id="navigation-office"/>
                 <img src="../assets/Silver.png" id="navigation-phone" />
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
             <div class="swiper navigationDesktopSlider">
                 <div class="swiper-wrapper">
@@ -311,8 +320,6 @@
                     </div>
                   </div>
                 </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
             </div>
         </section>
         <!-- Navigation Mobile slider section -->
@@ -323,7 +330,7 @@
             <div class="swiper navigationSwiper">
                 <div class="navigation-image">
                     <img src="../assets/mob_features_bg.png" />
-                    <img src="../assets/Silver.png"  id="phone-image" />
+                    <img src="../assets/Silver.png" id="phone-image" />
                     <div class="swiper-button-next"></div>
                     <div class="swiper-button-prev"></div>
                 </div>
@@ -366,7 +373,7 @@
         </section>
     
         <!-- Content section -->
-        <section class="content-section">
+        <section class="content-section" id="specs">
             <div>
                 <h2>Room booking</h2>
                 <div class="content-text">
@@ -571,7 +578,7 @@
                 </div>
             </div>
             <img src="../assets/mob_devices copy.png" alt="devices" class="mobile-break"/>
-            <img src="../assets/devices.png" class="mobile-none"/>  
+            <img src="../assets/devices.png" class="mobile-none" id="devices"/>  
         </section>
         <section class="content-6-section c-6-desktop-header">
             <div class="c-6-header-no-padding">
@@ -617,7 +624,7 @@
             </div>
         </section>
         <!-- Content 8 section -->
-        <section class="content-8-section">
+        <section class="content-8-section" id="faq">
             <div>
                 <h2>Frequently</br>
                     Asked</br>
@@ -642,7 +649,7 @@
             </div>
         </section>
         <!-- Contact form section -->
-        <section>
+        <section id="contact">
             <nav class="form-navigation">
                 <div class="options">
                     <div>
@@ -767,7 +774,7 @@
         </section>
         <!-- Footer section -->
         <footer class="footer">
-            <div class="footer-desktop">
+            <div class="footer-desktop footer-mobile">
                 <div>
                     <h4>Products:</h4>
                     <div>
@@ -815,5 +822,6 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script> 
     <script src="../scripts/swiper.js"></script>
     <script src="../scripts/accordion.js"></script>
+    <script src="../scripts/navbar.js"></script>
 </body>
 </html>

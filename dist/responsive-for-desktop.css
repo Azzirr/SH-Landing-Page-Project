@@ -1,0 +1,40 @@
+@media only screen and (min-width: 1024px) and (max-width: 1024px) {
+  .main-header-img {
+    display: none;
+  }
+  .navigation-desktop-slider .navigation-image #navigation-phone {
+    scale: 0.5;
+  }
+  .content-section .list {
+    margin-right: 100px;
+  }
+  .content-2-section .content-2-text-desktop {
+    margin-left: initial;
+    max-width: 300px;
+  }
+  .content-4-section img {
+    scale: 1;
+    transform: translateX(-100px);
+  }
+  .content-6-section img {
+    display: none;
+  }
+  .content-9-section-swiper-desktop .swiper .swiper-wrapper .swiper-slide .typed-logo {
+    scale: 0.5;
+    overflow: hidden;
+  }
+}
+@media only screen and (min-width: 1440px) and (max-width: 1440px) {
+  .main-header-img #img1 {
+    scale: 0.8;
+    transform: translateX(-100px);
+  }
+  .main-header-img #img2 {
+    scale: 0.8;
+    transform: translateX(250px);
+  }
+  .content-4-section img {
+    scale: 1.8;
+    transform: translateX(-100px);
+  }
+}/*# sourceMappingURL=responsive-for-desktop.css.map */
