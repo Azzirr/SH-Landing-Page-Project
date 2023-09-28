@@ -1,0 +1,278 @@
+@import 'variables';
+
+// Dotted mobile slider
+.management{
+    display: block;
+    font-family: $main-font;
+    background-color: $background-color;
+    padding-top: 80px;
+    h2{
+        font-size: 20px;
+        margin-left: $ml-20;
+    }
+
+    .p-bottom{
+        h4{
+            padding: 40px 20px 20px 20px;
+            font-family: $main-font;
+            font-weight: 400;
+        }
+    }
+    .swiper{
+        width: 95%;
+    }
+    .swiper-container{
+        background-color: $background-color;
+        margin-left: 5px;
+    }
+    .swiper-slide{
+        max-width: 100%;
+        padding-bottom: 15%;
+    }
+    .slide-text{
+        font-size: 18px;
+    }
+    
+    img{
+        margin-left: 25%;
+        margin-bottom: 10%;
+    }
+}
+
+.management-white{
+    background-color: $white-color;
+    .swiper-container{
+        background-color: $white-color;
+    }
+}
+
+// Navigation slider
+.navigation-slider{
+    display: block;
+    position: relative;
+    .header-text{
+        background-color: $background-color;
+        h4{
+            padding: 40px 20px 20px 20px;
+            font-family: $main-font;
+            font-weight: 400;
+            margin: 0
+        }
+    }
+    .navigation-image{
+        width: auto;
+        padding-bottom: 25%;
+        background-color: $product-color;
+        position: relative;
+        img{
+            width: 100%;
+            position: relative;
+        }
+        #phone-image{
+            position: absolute;
+            left: -5%;
+            scale: 0.8;
+        }
+    }
+    .swiper{
+        width: 100%;
+        height: 100%;
+    }
+  
+    .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    background-color: $product-color;
+    height: 300px;
+        h2{
+            font-family: $second-font;
+            font-weight: 800;
+            color: $white-color;
+            margin-left: $ml-20;
+        }
+        span{
+            display: block;
+            padding: $p-20;
+            font-family: $second-font;
+            font-size: 16px;
+            color: $white-color;
+            line-height: 25px;
+        }
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .swiper-button-next, .swiper-button-prev{
+        padding: 0px 10px 0px 10px;
+        background-color: $background-color;
+        position: absolute;
+        top: 80%;
+    }
+}
+
+.management-desktop{
+    .swiper {
+        width: 100%;
+        height: 100%;
+        padding: 40px 0px 60px 0px;
+    }
+
+    .swiper-slide {
+        background-color: $background-color !important;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    img{
+        scale: 0.5;
+    }
+    h3, span{
+        padding: 0px 40px 40px 40px;
+    }
+    h3{
+        font-family: $main-font;
+    }
+    span{
+        font-family: $second-font;
+    }
+}
+.navigation-desktop-slider{
+    position:relative;
+    #navigation-office{
+        max-width: 100%;
+    }
+    #navigation-phone{
+        position: absolute;
+        right: 20%;
+        z-index: 2;
+    }
+    .swiper {
+        width: 100%;
+        height: 100%;
+        background-color: $product-color;
+        padding: 80px 0px 80px 0px;
+    }
+    .navigation-image{
+        position: relative;
+        background-color: $product-color;
+    }
+    .swiper-slide {
+        background-color: $product-color !important;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .left-column, .right-column {
+        flex: 1;
+        h2{
+            font-family: $main-font;
+            font-size: 48px;
+            color: $white-color;
+            text-align: left;
+            padding-left: 30%;
+        }
+        span{
+            font-family: $second-font;
+            color: $white-color;
+        }
+    }
+    
+    .swiper-button-next, .swiper-button-prev{
+        padding: 0px 10px 0px 10px;
+        background-color: $background-color;
+        position: absolute;
+        top: 99%;
+    }
+}
+
+.content-9-section-swiper-desktop{
+    .swiper {
+        width: 100%;
+        height: 100%;
+        padding: 40px 0px 60px 0px;
+    }
+    .swiper-wrapper{
+        overflow: hidden;
+    }
+    .swiper-slide {
+        background-color: $background-color !important;
+        height: 900px;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .c-9-img{
+        img{
+            position: relative;
+        }
+    }
+
+    h3, span{
+        padding: 0px 40px 40px 40px;
+    }
+    span{
+        font-family: $second-font;
+    }
+}
+
+.separator-section{
+    background-color: $product-color;
+    padding: $p-20;
+    border-top: 1px dotted $background-color;
+    text-align: center;
+    color: $white-color;
+    font-family: $main-font;
+}
+
+@media only screen and (min-width: 769px) {
+    .management {
+        display: none;
+    }
+    .navigation-slider{
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px){
+    .management-desktop, .navigation-desktop-slider{
+        display: none;
+    }
+}

@@ -1,0 +1,112 @@
+body {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .download-section {
+    display: flex;
+    align-items: start;
+    scale: 0.5;
+  }
+}
+@media screen and (min-width: 769px) {
+  .main-header-container-mobile {
+    display: none;
+  }
+  .main-header-container-desktop {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    background-color: #F7F7F7;
+    padding-top: 5%;
+    width: 100%;
+  }
+  .main-header-container-desktop .margin {
+    margin-left: 30%;
+  }
+  .main-header-container-desktop .download-section {
+    display: flex;
+    align-items: center;
+    scale: 0.5;
+  }
+  .main-header-container-desktop .main-header-img {
+    max-width: 100%;
+  }
+  .main-header-container-desktop h1 {
+    color: #3146FF;
+    font-size: 60px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+  }
+  .main-header-container-desktop span {
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+  }
+  .main-header-container-desktop #img1 {
+    position: absolute;
+  }
+  .main-header-container-desktop #img2 {
+    position: absolute;
+    right: 280px;
+    top: 20px;
+    -webkit-clip-path: inset(0 0 15% 0);
+            clip-path: inset(0 0 15% 0);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .main-header-container-desktop {
+    display: none;
+  }
+  .main-header-container-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F7F7F7;
+    padding-top: 5%;
+  }
+  .main-header-container-mobile .download-section {
+    display: flex;
+    align-items: center;
+    scale: 0.2;
+  }
+  .main-header-container-mobile .photo-content img {
+    max-width: 100%;
+    height: auto;
+  }
+  .main-header-container-mobile .photo-content #img2 {
+    position: absolute;
+    right: -20px;
+    top: 180px;
+    scale: 0.8;
+  }
+  .main-header-container-mobile .photo-content-2 {
+    display: flex;
+    align-items: center;
+  }
+  .main-header-container-mobile .photo-content-2 img {
+    max-width: 100%;
+    box-sizing: border-box;
+    transform: scale(0.8);
+  }
+  .main-header-container-mobile .text-content {
+    padding: 20px;
+    margin-top: 50%;
+  }
+  .main-header-container-mobile .text-content span {
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .main-header-container-mobile .h1-style {
+    padding: 20px;
+  }
+  .main-header-container-mobile .h1-style h1 {
+    color: #3146FF;
+    font-size: 38px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+  }
+}/*# sourceMappingURL=main-header-styles.css.map */
